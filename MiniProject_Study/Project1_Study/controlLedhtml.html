@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Led Controller</title>
+	</head>
+	<style>
+	.button {
+		background-color: blue;
+		border: none;
+		color: white;
+		padding: 15px 30px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+	</style>
+	<body>
+	<center>
+		<h1><center>Raspberry Led Control</center></h1>
+		<form action = '/data' method = 'post'>
+		<input type="submit" class="button" name="led" value="LED ON">
+		<input type="submit" class="button" name="led" value="LED OFF">
+		</form>
+	</center>
+	</body>
+</html>
